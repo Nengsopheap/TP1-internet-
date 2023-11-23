@@ -30,26 +30,15 @@ import Button from './Button.vue';
         font-family: Quicksand; 
         font-size: 30px; 
         position: absolute; 
-        top: 50px;
+        top: 60px;
         left: 48px ;
-        
-
     }
-
-    /* .row{
-        
-        height: 300px;
-        width: 550px;
-        border-radius: 10px;
-        
-    } */
     .promotion{
         position: relative;
         border-radius: 10px;
         height: 300px;
         width: 550px;
-        border-radius: 10px;
-          
+        border-radius: 10px;    
     }
     .box4{
        display: flex;
@@ -57,5 +46,4 @@ import Button from './Button.vue';
        margin-left: 410px;
        margin-top: 50px;
     }
-
 </style>

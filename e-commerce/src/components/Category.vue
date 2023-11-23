@@ -1,13 +1,11 @@
 
 
 <template>
-    
-    <div class="color" :style="{ backgroundColor: bgColor }" >
-        
-    <img :src="image" />
-    <p class="name">{{ name }}</p>
-    <p class="item">{{ item }} items</p>
-   </div>
+        <div class="color" :style="{ backgroundColor: bgColor }" >
+        <img :src="image" />
+        <p class="name">{{ name }}</p>
+        <p class="item">{{ item }} items</p>
+        </div>
 </template>
 <script>
 export default {
@@ -15,7 +13,7 @@ export default {
   props: ["image", "bgColor", "name", "item", "group"],
 };
 </script>
-<style>
+<style scoped>
 
     .name{   
 
